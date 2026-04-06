@@ -3,11 +3,11 @@
   "rewrites": [
     {
       "source": "/api/(.*)",
-      "destination": "/server/index.js"
+      "destination": "/ecolink/server/index.js"
     },
     {
       "source": "/(.*)",
-      "destination": "/client/dist/$1"
+      "destination": "/ecolink/client/dist/$1"
     }
   ]
 }

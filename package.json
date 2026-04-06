@@ -1,0 +1,7 @@
+{
+  "name": "ecolink-repo-root",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "npm install --prefix ecolink/client && npm run build --prefix ecolink/client && npm install --prefix ecolink/server"
+  }
+}
